@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:wght@100;400;500;600;700&display=swap');
+
+
+body {
+    background-color: #FFA800;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* navbar */
+nav {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #ffffff;
+}
+nav .logo {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+}
+nav .logo img {
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+nav .logo span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #31515C; 
+}
+nav .menu {
+    display: flex;
+    align-items: center;
+}
+nav .menu a {
+    margin: 0 30px;
+    text-decoration: none;
+    color: #31515C;
+    font-size: 18px;
+}
+nav .menu a.active {
+    color: #FFA800;
+}
+nav .icons {
+    display: flex;
+    align-items: center;
+}
+
+nav .icons i {
+    cursor: pointer;
+    font-size: 26px;
+    margin: 0 20px;
+    color: #31515C;
+}
+
+
+nav .contact-btn {
+    font-family: 'poppins', serif;
+    background-color: #ffa500;
+    color: #ffffff;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+nav .contact-btn i {
+    margin-right: 10px;
+    color: #ffffff;
+}
+nav .contact-btn:hover {
+    background-color: #FFA800;
+    
+}
+/* navbar */
+
+
+/* login */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.konci {
+    padding: 20px;
+    display: flex;
+}
+
+
+.alamak {
+    padding: 50px;
+    display: flex;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+.login {
+    width: 480px;
+}
+
+.login form {
+    width: 250px;
+    margin: 60px auto;
+}
+
+.login h1 {
+    margin: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.login hr {
+    border-top: 2px solid #FFA800;
+}
+
+.login p {
+    text-align: center ;
+    margin: 10px;
+}
+
+.alamak .right {
+    width: 390px;
+}
+.alamak .right img {
+    margin-top: 40px;
+    width: 350px;
+    height: 350px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.login form label {
+    display: flex;
+    font-size: 16px;
+    font-weight: 600px;
+    padding: 5px;
+}
+
+.login input {
+    width: 100%;
+    margin: 2px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.login button {
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 252px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: #FFA800;
+}
+
+.login button:hover {
+    background: rgba(214, 86, 64, 1);
+
+}
+
+
+/* login */
+
+
+
+footer {
+    height: 100%;
+    width: 100%;
+    background: #31515C;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+section {
+    padding: 100px 13% 70px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, auto));
+    gap: 3.5 rem;
+    background: #31515C;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.footer-content{
+    margin-right: 70px;
+    color: #fff;
+}
+
+.footer-content h2 {
+    font-weight: bolder;
+    
+}
+
+.footer-content h4{
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+
+.footer-content li{
+    margin-bottom: 16px;
+}
+
+.footer-content li a {
+    display: block;
+    color: #d6d6d6;
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .40s ease;
+}
+
+
+.footer-content li a:hover {
+    transform: translateY(-3px) translateX(-5px);
+    color: #fff;
+}
+
+.footer-conter p {
+    color: #d6d6d6;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.icon-foot a{
+    display: inline-block;
+    font-size: 22px;
+    color: #d6d6d6;
+    margin-right: 17px;
+    transition: all .40s ease;
+}
+
+.icon-foot a:hover {
+    color: #fff;
+    transform: translateY(-5px);
+}

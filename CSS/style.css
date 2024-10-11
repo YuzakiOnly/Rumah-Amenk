@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:wght@100;400;500;600;700&display=swap');
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: #fcfcfc;
+}
+
+/* nav .logo img {
+    height: 50px;
+    width: 50px;
+} */
+
+
+/* navbar */
+nav {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #ffffff;
+}
+nav .logo {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+}
+nav .logo img {
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+nav .logo span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #31515C; 
+}
+nav .menu {
+    display: flex;
+    align-items: center;
+}
+nav .menu a {
+    margin: 0 30px;
+    text-decoration: none;
+    color: #31515C;
+    font-size: 18px;
+}
+nav .menu a.active {
+    color: #FFA800;
+}
+nav .icons {
+    display: flex;
+    align-items: center;
+}
+
+nav .icons i {
+    cursor: pointer;
+    font-size: 26px;
+    margin: 0 20px;
+    color: #31515C;
+}
+
+
+nav .contact-btn {
+    font-family: 'poppins', serif;
+    background-color: #ffa500;
+    color: #ffffff;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+nav .contact-btn i {
+    margin-right: 10px;
+    color: #ffffff;
+}
+nav .contact-btn:hover {
+    background-color: #FFA800;
+    
+}
+/* navbar */
+
+/* halaman Pertama */
+
+/* .container {
+    width: 100%;
+    height: 100%;
+} */
+
+.hero {
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+.hero .text {
+    max-width: 40%;
+}
+
+.hero .text h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-bottom: 2rem;
+    font-size: 24px;
+    color: #FFA800;
+    margin: 0;
+}
+.hero .text h1 {
+    font-family: "Inter", sans-serif;
+    font-weight:900;
+
+    font-size: 48px;
+    color: #31515C;
+    margin: 0;
+}
+.hero .text h1 span {
+    color: #FFA800;
+}
+.hero .text p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+    color: #666666;
+    margin: 20px 0;
+}
+
+/* .hero .btn {
+    
+} */
+
+.hero .text .btn {
+    background-color: #FFA800;
+    color: #ffffff;
+    padding: 15px 40px;
+    border: none;    
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+.hero .text .btn:hover {
+    background-color: #FFA800;
+}
+.hero .image {
+    max-width: 40%;
+}
+.hero .image img {
+    height: 55  0px;
+    width: 550px;
+    border-radius: 50%;
+    border: 10px solid #FFA800;
+}
+/* halaman Pertama */
+
+/* halaman Kedua */
+
+
+.title {
+    display: flex;
+    color: #ff6b6b;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'inter',serif;
+    padding-top: 100px;
+}
+
+.title .t1 {
+    height: 40px;
+}
+
+
+.title span {
+    color: #2c3e50;
+    font-size: 35px;
+    font-weight: 900;
+}
+.cards {
+    font-family: 'outfit',serif;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.card {
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+}
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ffcc00;
+    padding: 10px;
+}
+.card-title {
+    color: #2c3e50;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.card-subtitle {
+    color: #7f8c8d;
+    font-size: 14px;
+    margin-top: 5px;
+}
+/* halaman Kedua */
+
+/* halaman Ketiga */
+
+    .title-2 {
+        display: flex;
+        color: #ff6b6b;
+        font-size: 22px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'inter',serif;
+        padding-top: 6rem;
+    }
+    
+    .title-2 .g1 {
+        height: 40px;
+    }
+    
+    
+    .title-2 span {
+        color: #2c3e50;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .makanan {
+        font-family: 'outfit',serif;
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+    }
+    .menu-makanan {
+        background-color: #ffffff;
+        border-radius: 35px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 200px;
+        text-align: center;
+        padding: 25px 60px;
+    }
+    
+    .menu-makanan img {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        padding: 10px;
+    }
+    .menu-title {
+        color: #2c3e50;
+        font-size: 22px;
+        font-weight: bold;
+        padding-right: 45px;
+        padding-top: 20px;
+    }
+
+    .menu-subtitle {
+        color: #7f8c8d;
+        font-size: 16px;
+        margin-top: 5px;
+        height: 28px;
+        padding-right: 112px;
+    }
+
+    .menu-makanan .harga {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    .menu-makanan .rp {
+        font-family: 'outfit',serif;
+    }
+
+    .menu-makanan .price {
+        font-weight: medium;
+        font-size: 22px;
+    }
+    .menu-makanan .price span {
+        color: #ff6b6b;
+        font-weight: medium;
+    }
+
+    .menu-makanan .rating {
+        color: #FFA800;
+        font-family: 'outfit',serif;
+    }
+
+    .menu-makanan .rating i {
+    font-size: 22px;
+    }
+
+    .menu-makanan .rating span {
+        font-size: 22px;
+    }
+
+/* halaman Ketiga */
+
+
+/* halama Keempat  */
+.fantek {
+    text-align: left;
+    padding: 20px;
+    margin: 170px 0px 100px 0px;
+    display: flex;
+    justify-content: center ;
+    font-family: 'inter',serif;
+}
+
+.fantek .contak {
+    font-size: 22px;
+    margin: 100px 100px 0px 0px;
+}
+
+.aku {
+    color: #ff6b6b;
+    font-size: 16px;
+    font-weight: medium;
+    margin-bottom: 30px;
+}
+
+.titler {
+    color: #2d3e50;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.descriptionr {
+    color: #6c757d;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.odol .services {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+
+}
+
+.odol .services2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.service {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 50px 0px 50px 0px;
+    margin-left: 50px;
+    text-align: center;
+    flex: 1 1 calc(50% - 20px);
+    max-width: 200px;
+}
+.service i {
+    font-size: 36px;
+    color: #2d3e50;
+    margin-bottom: 10px;
+}
+.service-titler {
+    color: #2d3e50;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+.service-descriptionr {
+    color: #6c757d;
+    font-size: 14px;
+    line-height: 1.5;
+}
+/* halama Keempat  */
+
+
+/* footer */    
+
+footer {
+    height: 100%;
+    width: 100%;
+    background: #31515C;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+section {
+    padding: 100px 13% 70px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, auto));
+    gap: 3.5 rem;
+    background: #31515C;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.footer-content{
+    margin-right: 70px;
+    color: #fff;
+}
+
+.footer-content h2 {
+    font-weight: bolder;
+    
+}
+
+.footer-content h4{
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+
+.footer-content li{
+    margin-bottom: 16px;
+}
+
+.footer-content li a {
+    display: block;
+    color: #d6d6d6;
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .40s ease;
+}
+
+
+.footer-content li a:hover {
+    transform: translateY(-3px) translateX(-5px);
+    color: #fff;
+}
+
+.footer-conter p {
+    color: #d6d6d6;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.icon-foot a{
+    display: inline-block;
+    font-size: 22px;
+    color: #d6d6d6;
+    margin-right: 17px;
+    transition: all .40s ease;
+}
+
+.icon-foot a:hover {
+    color: #fff;
+    transform: translateY(-5px);
+}
+
+/* @media (max max-width:1690){
+    section {
+        padding: 50px 5% 50px;
+    }
+}
+
+@media (max max-width:1120px){
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(300px, auto));
+        gap: 2 rem;
+    }
+}
+
+@media (max max-width:700px){
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(150px, auto));
+        gap: 2.5rem;
+    }
+} */
+
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */

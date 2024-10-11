@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:wght@100;400;500;600;700&display=swap');
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: #fcfcfc;
+}
+
+/* nav .logo img {
+    height: 50px;
+    width: 50px;
+} */
+
+
+/* navbar */
+nav {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #ffffff;
+}
+nav .logo {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+}
+nav .logo img {
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+nav .logo span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #31515C; 
+}
+nav .menu {
+    display: flex;
+    align-items: center;
+}
+nav .menu a {
+    margin: 0 30px;
+    text-decoration: none;
+    color: #31515C;
+    font-size: 18px;
+}
+nav .menu a.active {
+    color: #FFA800;
+}
+nav .icons {
+    display: flex;
+    align-items: center;
+}
+
+nav .icons i {
+    cursor: pointer;
+    font-size: 26px;
+    margin: 0 20px;
+    color: #31515C;
+}
+
+
+nav .contact-btn {
+    font-family: 'poppins', serif;
+    background-color: #ffa500;
+    color: #ffffff;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+nav .contact-btn i {
+    margin-right: 10px;
+    color: #ffffff;
+}
+nav .contact-btn:hover {
+    background-color: #FFA800;
+    
+}
+/* navbar */
+
+/* foto */
+
+/* foto */
+
+/* halaman Menu makanan */
+.title-2 {
+    display: flex;
+    color: #2c3e50;
+    font-size: 28px;
+    font-family: 'inter',serif;
+    font-weight: bolder;
+    margin-left: 7.6rem;
+    padding-top: 5rem;
+}
+
+
+.title-2 span {
+    color: #FFA800;
+}
+
+.makanan {
+    font-family: 'outfit',serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0px 100px 0px 100px;
+    gap: 20px;
+}
+.menu-makanan {
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+    padding: 25px 40px;
+    margin: 20px 0px 10px 0px;
+}
+
+.menu-makanan img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.menu-title {
+    color: #2c3e50;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+}
+
+.menu-subtitle {
+    color: #7f8c8d;
+    font-size: 16px;
+    margin-top: 5px;
+    display:flex;
+}
+
+.stars {
+    color: #f1c40f;
+    display: flex;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.stars i {
+    margin-right: 5px;
+}
+
+.menu-makanan .harga {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.menu-makanan .rp {
+    font-family: 'outfit',serif;
+}
+
+.menu-makanan .price {
+    font-weight: medium;
+    font-size: 22px;
+}
+.menu-makanan .price span {
+    color: #ff6b6b;
+    font-weight: medium;
+}
+
+.menu-makanan .shop {
+    color: #Fff;
+    font-family: 'outfit',serif;
+}
+
+.menu-makanan .shop i {
+font-size: 16px;
+padding: 10px;
+border-radius: 15%;
+background: #FFA800;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* halaman Menu makanan */
+
+/* footer */
+footer {
+    height: 100%;
+    width: 100%;
+    background: #31515C;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+section {
+    padding: 100px 13% 70px;
+    margin-top: 100px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, auto));
+    gap: 3.5 rem;
+    background: #31515C;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.footer-content{
+    margin-right: 70px;
+    color: #fff;
+}
+
+.footer-content h2 {
+    font-weight: bolder;
+    
+}
+
+.footer-content h4{
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+
+.footer-content li{
+    margin-bottom: 16px;
+}
+
+.footer-content li a {
+    display: block;
+    color: #d6d6d6;
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .40s ease;
+}
+
+
+.footer-content li a:hover {
+    transform: translateY(-3px) translateX(-5px);
+    color: #fff;
+}
+
+.footer-conter p {
+    color: #d6d6d6;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.icon-foot a{
+    display: inline-block;
+    font-size: 22px;
+    color: #d6d6d6;
+    margin-right: 17px;
+    transition: all .40s ease;
+}
+
+.icon-foot a:hover {
+    color: #fff;
+    transform: translateY(-5px);
+}
+
+/* footer */
