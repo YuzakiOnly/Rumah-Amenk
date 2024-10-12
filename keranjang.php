@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/fontawesome-free-6.6.0-web/css/all.min.css" rel="stylesheet" />
     <!-- Link Google Font -->
     <link rel="preconnect" href="https://fonts.gooleapis.com" />
@@ -24,7 +24,7 @@
     />
     <!-- Boxicons Link -->
 
-    <link rel="stylesheet" href="/CSS/detail.css" />
+    <link rel="stylesheet" href="/CSS/keranjang.css" />
     <title>Rumah Amenk</title>
 </head>
 <body>
@@ -38,14 +38,14 @@
         <span>Rumah Amenk</span>
         </div>
         <div class="menu">
-        <a href="index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="keranjang.html">Orders</a>
+        <a href="index.php">Home</a>
+        <a href="menu.php">Menu</a>
+        <a class="active" href="keranjang.php">Orders</a>
         <a href="#">Services</a>
         </div>
         <div class="icons">
-            <a href="keranjang.html"><i class="fa-solid fa-cart-shopping"></i></a>
-            <a href="Login.html"><i class="fa-solid fa-user"></i></a>
+            <a href="keranjang.php"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="Login.php"><i class="fa-solid fa-user"></i></a>
             <button class="contact-btn">
                 <i class="fa-solid fa-phone"></i>Contact
             </button>
@@ -53,43 +53,69 @@
     </nav>
     <!-- navbar -->
 
-    <!-- Halaman -->
+    <!-- lucu -->
     <div class="container">
-        <div class="back-button">
-            <i class="fas fa-arrow-left"></i>
-            <span> Kembali </span>
-        </div>
-
-        <div class="product">
-            <img src="/Asset/Makanan RIngan/Salad L.jpg" alt="">
-            <div class="product-details">
-                <h1>Nasi Goreng Ayam</h1>
-                <div class="stars">
-                    <i class="fas fa-star"> </i>
-                    <i class="fas fa-star"> </i>
-                    <i class="fas fa-star"> </i>
-                    <i class="fas fa-star"> </i>
-                    <i class="fas fa-star"> </i>
-                    <span> (2000+ Reviews) </span>
-                </div>
-                <p>Nasi Goreng Ayam Alah Rumah Amnek Penuh Dengan Cita Rasa Mulai Dari
-                Ayam yang Ditaburi Penuh Ke Dalam Nasi Goreng !!</p>
-                <div class="price">Harga :<span> Rp12.000 </span></div>
-
-                <div class="quantity">
-                    <button>-</button>
-                    <input type="text" value="1" />
-                    <button>+</button>
-                </div>
-                
-                <div class="buttons">
-                <button class="cart">+Keranjang</button>
-                <button class="buy">Beli Sekarang</button>
-                </div>
+        <div class="header">
+            <div class="s">Nama Produk</div>
+            <div class="gh">
+                <div class="m">Harga Satuan</div>
+                <div class="l">Jumlah Produk</div>
+                <div class="i">Total Harga</div>
             </div>
         </div>
+        <div class="item-apalah">
+            <div class="cart-item">
+                <img src="/Asset/Makanan Berat/Ayam Geprek Sambel Hijau.webp" alt="Nasi Goreng Ayam"/>
+                <div class="details">
+                    <h4>Nasi Goreng Ayam</h4>
+                    <p>Nasi Goreng Ayam Akan Rumah Amnek Penuh Dengan Cita Rasa Mulai Dari Ayam yang Dibuturi Penuh Ke Dalam Nasi Goreng !!</p>
+                </div>
+                <div class="price"><span>Rp</span>12.000</div>
+                <div class="quantity">
+                    <button>-</button>
+                    <span>1</span>
+                    <button>+</button>
+                </div>
+                <div class="total-price"><span>Rp</span>12.000</div>
+                <div class="remove">Hapus</div>
+            </div>
+            <div class="cart-item">
+                <img src="/Asset/Makanan RIngan/Salad M.jpg" alt="Nasi Goreng Ayam"/>
+                <div class="details">
+                    <h4>Nasi Goreng Ayam</h4>
+                    <p>Nasi Goreng Ayam Akan Rumah Amnek Penuh Dengan Cita Rasa Mulai Dari Ayam yang Dibuturi Penuh Ke Dalam Nasi Goreng !!</p>
+                </div>
+                <div class="price"><span>Rp</span>12.000</div>
+                <div class="quantity">
+                    <button>-</button>
+                    <span>2</span>
+                    <button>+</button>
+                </div>
+                <div class="total-price"><span>Rp</span>12.000</div>
+                <div class="remove">Hapus</div>
+            </div>
+            <div class="cart-item">
+                <img src="/Asset/Semua Minuman/Es Teller.jpg" alt="Nasi Goreng Ayam"/>
+                <div class="details">
+                    <h4>Nasi Goreng Ayam</h4>
+                    <p>Nasi Goreng Ayam Akan Rumah Amnek Penuh Dengan Cita Rasa Mulai Dari Ayam yang Dibuturi Penuh Ke Dalam Nasi Goreng !!</p>
+                </div>
+                <div class="price"><span>Rp</span>12.000</div>
+                <div class="quantity">
+                    <button>-</button>
+                    <span>3</span>
+                    <button>+</button>
+                </div>
+                <div class="total-price"><span>Rp</span>12.000</div>
+                <div class="remove">Hapus</div>
+            </div>
+        </div>
+        <div class="footers">
+            <div class="total">Total (6 Produk): <span>Rp72.000</span></div>
+            <button class="checkout">Beli Sekarang</button>
+        </div>
     </div>
-    <!-- halaman -->
+    <!-- lucu -->
 
     <!-- halaman 2 -->
 
@@ -203,11 +229,11 @@
             </div>
 
             <div class="footer-content">
-                <h4>Projects</h4>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Orders</a></li>
-                <li><a href="#">Services</a></li>
+                    <h4>Projects</h4>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="menu.php">Menu</a></li>
+                    <li><a href="keranjang.php">Orders</a></li>
+                    <li><a href="#">Services</a></li>
             </div>
 
             <div class="footer-content">
@@ -236,5 +262,6 @@
 
         </section>
     </footer>
+    <script src="/JS/navbar.js"></script>
 </body>
 </html>

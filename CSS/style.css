@@ -24,6 +24,12 @@ nav {
     padding: 20px 50px;
     background-color: #ffffff;
 }
+
+nav .sticky {
+    padding: 15px 20px;
+    background: #fcfcfc;
+}
+
 nav .logo {
     font-family: "Poppins", sans-serif;
     font-weight: 600;

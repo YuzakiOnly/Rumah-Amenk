@@ -28,14 +28,14 @@
         <span>Rumah Amenk</span>
         </div>
         <div class="menu">
-            <a class="active" href="index.html">Home</a>
-            <a href="menu.html">Menu</a>
-            <a href="keranjang.html">Orders</a>
+            <a class="active" href="index.php">Home</a>
+            <a href="menu.php">Menu</a>
+            <a href="keranjang.php">Orders</a>
             <a href="#">Services</a>
         </div>
         <div class="icons">
-            <a href="keranjang.html"><i class="fa-solid fa-cart-shopping"></i></a>
-            <a href="Login.html"><i class="fa-solid fa-user"></i></a>
+            <a href="keranjang.php"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="Login.php"><i class="fa-solid fa-user"></i></a>
             <button class="contact-btn">
                 <i class="fa-solid fa-phone"></i>Contact
             </button>
@@ -54,8 +54,7 @@
             <p>
                 Di mana Setiap Piring Menenun Kisah Penguasaan Kuliner dan Keahlian yang Penuh SemangatDi mana Setiap Piring Menenun Kisah Penguasaan Kuliner dan Keahlian yang Penuh Semangat
             </p>
-
-            <button class="btn">MENU KAMI</button>
+            <a href="menu.php"><button class="btn">MENU KAMI</button></a>
         </div>
             <div class="image">
                 <img alt="A delicious plate of food from Rumah Amenk"  src="/Asset/SAVE_20241001_191543-fotor-bg-remover-20241001192220 (1).png" />
@@ -212,9 +211,9 @@
 
                 <div class="footer-content">
                     <h4>Projects</h4>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Orders</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="menu.php">Menu</a></li>
+                    <li><a href="keranjang.php">Orders</a></li>
                     <li><a href="#">Services</a></li>
                 </div>
 
@@ -244,6 +243,7 @@
 
             </section>
         </footer>
-        <!-- footer -->        
+        <!-- footer -->      
+        <script src="/JS/navbar.js"></script>
 </body>
 </html>
