@@ -137,14 +137,19 @@ form .skip a {
 }
 
 .social-icons a{
-    border: 1px solid #ccc;
-    border-radius: 20%;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    padding: 0px 70px 0px 70px;
     margin: 0 3px;
     width: 40px;
     height: 40px;
+
+    .icon i{
+        border: #FF6868;
+    }
 }
 
 .toggle-container{

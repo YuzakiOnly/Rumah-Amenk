@@ -56,6 +56,10 @@ nav .menu a {
     text-decoration: none;
     color: #31515C;
     font-size: 18px;
+    transition: all .40s ease;
+}
+nav .menu a:hover {
+    color: #FFA800;
 }
 nav .menu a.active {
     color: #FFA800;
@@ -160,10 +164,11 @@ nav .contact-btn:hover {
     font-size: 18px;
     cursor: pointer;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all .40s ease;
     transition: background-color 0.3s ease;
 }
 .hero .text .btn:hover {
-    background-color: #FFA800;
+    background-color: #31515C;
 }
 .hero .image {
     max-width: 40%;
@@ -212,7 +217,13 @@ nav .contact-btn:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 200px;
     padding: 20px;
+    /* cursor: pointer; */
+    transition: all .40s ease;
     text-align: center;
+}
+
+.cards .card:hover {
+    transform: translateY(-5px) translateX(-5px); 
 }
 .card img {
     width: 100px;
@@ -271,6 +282,7 @@ nav .contact-btn:hover {
         width: 200px;
         text-align: center;
         padding: 25px 60px;
+        transition: all .40s ease;
     }
     
     .menu-makanan img {
@@ -324,6 +336,10 @@ nav .contact-btn:hover {
 
     .menu-makanan .rating span {
         font-size: 22px;
+    }
+
+    .makanan .menu-makanan:hover {
+        transform: translateY(-5px) translateX(-5px); 
     }
 
 /* halaman Ketiga */
@@ -385,8 +401,25 @@ nav .contact-btn:hover {
     margin-left: 50px;
     text-align: center;
     flex: 1 1 calc(50% - 20px);
+    cursor: pointer;
+    transition: all .40s ease;
     max-width: 200px;
 }
+
+.service:hover {
+    background-color: #FFA800;
+    color: #fff;
+    i{
+        color: #fff;
+    } 
+    .service-titler {
+        color: #fff;
+    }
+    .service-descriptionr {
+        color: #fff;
+    }
+}
+
 .service i {
     font-size: 36px;
     color: #2d3e50;
@@ -403,6 +436,7 @@ nav .contact-btn:hover {
     font-size: 14px;
     line-height: 1.5;
 }
+
 /* halama Keempat  */
 
 

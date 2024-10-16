@@ -50,10 +50,15 @@ nav .menu a {
     text-decoration: none;
     color: #31515C;
     font-size: 18px;
+    transition: all .40s ease;
+}
+nav .menu a:hover {
+    color: #FFA800;
 }
 nav .menu a.active {
     color: #FFA800;
 }
+
 nav .icons {
     display: flex;
     align-items: center;
@@ -116,9 +121,9 @@ nav .contact-btn:hover {
     font-family: 'outfit',serif;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 0px 100px 0px 100px;
-    gap: 20px;
+    gap: 40px;
 }
 .menu-makanan {
     background-color: #ffffff;
@@ -128,7 +133,13 @@ nav .contact-btn:hover {
     text-align: center;
     padding: 25px 40px;
     margin: 20px 0px 10px 0px;
+    transition: all .40s ease;
 }
+
+.makanan .menu-makanan:hover {
+    transform: translateY(-5px) translateX(-5px); 
+}
+
 
 .menu-makanan img {
     width: 140px;
