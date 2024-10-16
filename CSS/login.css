@@ -104,7 +104,7 @@ form .skip a {
 }
 
 .container.active .sign-in{
-    transform: translateX(100%);
+    transform: translateX(33%);
 }
 
 .sign-up{
@@ -136,21 +136,36 @@ form .skip a {
     margin: 20px 0;
 }
 
-.social-icons a{
+.social-icons .xl{
     border: 1px solid #ccc; 
+    background-color: #e23a2e;
+    color: #fff;
     border-radius: 5px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    font-size: 16px;
     padding: 0px 70px 0px 70px;
     margin: 0 3px;
     width: 40px;
     height: 40px;
-
-    .icon i{
-        border: #FF6868;
-    }
 }
+
+.social-icons .xl1{
+    border: 1px solid #ccc; 
+    background-color: #3b5998;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 0px 70px 0px 70px;
+    margin: 0 3px;
+    width: 40px;
+    height: 40px;
+}
+
 
 .toggle-container{
     position: absolute;
