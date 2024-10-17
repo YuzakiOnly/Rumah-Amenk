@@ -255,7 +255,7 @@ nav .contact-btn:hover {
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 0px 100px 0px 100px;
-    gap: 30px;
+    gap: 10px;
 }
 .menu-makanan {
     background-color: #ffffff;
@@ -265,6 +265,11 @@ nav .contact-btn:hover {
     text-align: center;
     padding: 25px 40px;
     margin: 20px 0px 10px 0px;
+    transition: all .30s ease;
+}
+
+.makanan .menu-makanan:hover {
+    transform: translateY(-5px) translateX(-5px); 
 }
 
 .menu-makanan img {

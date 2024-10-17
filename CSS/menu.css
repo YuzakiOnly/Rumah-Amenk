@@ -131,7 +131,7 @@ nav .contact-btn:hover {
     font-size: 30px;
     font-family: 'inter',serif;
     font-weight: bolder;
-    max-width: 22.3%;
+    max-width: 30%;
     margin-top: 70px;
     margin-left: 140px;
     height: 130px;
@@ -263,7 +263,7 @@ section {
 }
 
 .footer-content{
-    margin-right: 70px;
+    margin-right: 100px;
     color: #fff;
 }
 
