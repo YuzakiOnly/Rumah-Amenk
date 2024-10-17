@@ -13,9 +13,9 @@ nav {
     font-weight: 500;
     font-style: normal;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 20px 0px 20px 0px;
     background-color: #ffffff;
 }
 nav .logo {
@@ -24,6 +24,7 @@ nav .logo {
     font-style: normal;
     display: flex;
     align-items: center;
+    margin-left: 70px;
 }
 nav .logo img {
     height: 40px;
@@ -31,7 +32,7 @@ nav .logo img {
     border-radius: 50%;
 }
 nav .logo span {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     color: #31515C; 
 }
@@ -43,7 +44,7 @@ nav .menu a {
     margin: 0 30px;
     text-decoration: none;
     color: #31515C;
-    font-size: 18px;
+    font-size: 20px;
     transition: all .40s ease;
 }
 nav .menu a:hover {
@@ -54,14 +55,33 @@ nav .menu a.active {
 }
 nav .icons {
     display: flex;
-    align-items: center;
 }
 
 nav .icons i {
     cursor: pointer;
     font-size: 26px;
     margin: 0 20px;
-    color: #31515C;
+    color: #FFA800;
+}
+
+nav .jamet {
+    font-family: 'poppins', serif;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    i {
+        background-color: #ffa800;
+    color: #ffffff;
+    padding: 15px 17px 15px 17px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 50% 50% 50% 50%;
+    }
+}
+
+nav .jamet i {
+    color: #ffffff;
+    font-size: 20px;
 }
 
 
@@ -70,6 +90,7 @@ nav .contact-btn {
     background-color: #ffa500;
     color: #ffffff;
     padding: 8px 14px;
+    margin-right: 70px;
     border: none;
     border-radius: 30px;
     font-size: 16px;
