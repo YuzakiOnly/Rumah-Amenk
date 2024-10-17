@@ -19,7 +19,7 @@ nav {
     font-weight: 500;
     font-style: normal;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 20px 0px 20px 0px;
     background-color: #ffffff;
@@ -30,7 +30,7 @@ nav .logo {
     font-style: normal;
     display: flex;
     align-items: center;
-    margin-left: 70px;
+    margin-left: 40px;
 }
 nav .logo img {
     height: 40px;
@@ -41,6 +41,10 @@ nav .logo span {
     font-size: 20px;
     font-weight: bold;
     color: #31515C; 
+}
+
+nav .active {
+    color: #FFA800;
 }
 nav .menu {
     display: flex;
@@ -96,7 +100,7 @@ nav .contact-btn {
     background-color: #ffa500;
     color: #ffffff;
     padding: 8px 14px;
-    margin-right: 70px;
+    margin-right: 30px;
     border: none;
     border-radius: 30px;
     font-size: 16px;
@@ -127,15 +131,16 @@ nav .contact-btn:hover {
     font-size: 30px;
     font-family: 'inter',serif;
     font-weight: bolder;
-    max-width: 40%;
+    max-width: 22.3%;
     margin-top: 70px;
+    margin-left: 140px;
     height: 130px;
 }
 
 .title-2 .g2 {
     align-items: center;
     display: flex;
-    justify-content: space-evenly;
+    
 }
 
 

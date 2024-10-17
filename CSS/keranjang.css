@@ -13,7 +13,7 @@ nav {
     font-weight: 500;
     font-style: normal;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 20px 0px 20px 0px;
     background-color: #ffffff;
@@ -35,6 +35,9 @@ nav .logo span {
     font-size: 20px;
     font-weight: bold;
     color: #31515C; 
+}
+nav .active {
+    color: #FFA800;
 }
 nav .menu {
     display: flex;
