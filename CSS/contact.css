@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:wght@100;400;500;600;700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+
+
+}
+
+body{
+	height: 100vh;
+	width: 100%;
+    background-color: #fcfcfc;
+}
+
+/* navbar */
+nav {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    background-color: #ffffff;
+}
+nav .logo {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+nav .logo img {
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+nav .logo span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #31515C; 
+}
+
+nav .active {
+    color: #FFA800;
+}
+
+nav .menu {
+    display: flex;
+    align-items: center;
+}
+nav .menu a {
+    margin: 0 30px;
+    text-decoration: none;
+    color: #31515C;
+    font-size: 20px;
+    transition: all .40s ease;
+}
+nav .menu a:hover {
+    color: #FFA800;
+}
+nav .menu a.active {
+    color: #FFA800;
+}
+nav .icons {
+    display: flex;
+}
+
+nav .icons i {
+    cursor: pointer;
+    font-size: 26px;
+    margin: 0 20px;
+    color: #FFA800;
+}
+
+nav .jamet {
+    font-family: 'poppins', serif;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    i {
+        background-color: #ffa800;
+    color: #ffffff;
+    padding: 15px 17px 15px 17px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 50% 50% 50% 50%;
+    }
+}
+
+nav .jamet i {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+nav .contact-btn {
+    font-family: 'poppins', serif;
+    background-color: #ffa500;
+    color: #ffffff;
+    padding: 8px 14px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    a {
+        list-style: none;
+        text-decoration: none;
+    }
+}
+
+nav .contact-btn i {
+
+    margin-right: 10px;
+    color: #ffffff;
+}
+nav .contact-btn:hover {
+    background-color: #FFA800;
+    
+}
+/* navbar */
+
+.container{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 100px;
+    box-sizing: border-box;
+}
+
+.container:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: url("img/bg.jpg") no-repeat center;
+	background-size: cover;
+	filter: blur(50px);
+	z-index: -1;
+}
+.contact-box{
+	max-width: 850px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+
+.left{
+	background: url("/Asset/pemandangannya-cantik-5-restoran-di-bali-ini-berlokasi-di-tepi-tebing-2.png") no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+.right{
+	padding: 25px 80px;
+    width: 60%;
+}
+
+h2{
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+
+h2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #ffa800;
+}
+
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	min-height: 150px;
+}
+
+.btn{
+	width: 100%;
+	padding: 0.5rem 1rem;
+    margin-left: 20px;
+	background-color: #ffa800;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.btn:hover{
+    background-color: #ffa800;
+}
+
+.field:focus{
+    border: 2px solid rgba(49,81,92,100%);
+    background-color: #fff;
+}
+
+@media screen and (max-width: 880px){
+	.contact-box{
+		grid-template-columns: 1fr;
+	}
+	.left{
+		height: 200px;
+	}
+}
+
+/* footer */    
+
+footer {
+    background: #31515C;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+section {
+    padding: 100px 13% 70px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, auto));
+    gap: 3.5 rem;
+    background: #31515C;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.footer-content{
+    margin-right: 70px;
+    color: #fff;
+}
+
+.footer-content {
+    h2 {
+        font-weight: bolder;
+    
+    }
+
+}
+
+.footer-content h4{
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+
+.footer-content li{
+    margin-bottom: 16px;
+}
+
+.footer-content li a {
+    display: block;
+    color: #d6d6d6;
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .40s ease;
+}
+
+
+.footer-content li a:hover {
+    transform: translateY(-3px) translateX(-5px);
+    color: #fff;
+}
+
+.footer-conter p {
+    color: #d6d6d6;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.icon-foot a{
+    display: inline-block;
+    font-size: 22px;
+    color: #d6d6d6;
+    margin-right: 17px;
+    transition: all .40s ease;
+}
+
+.icon-foot a:hover {
+    color: #fff;
+    transform: translateY(-5px);
+}

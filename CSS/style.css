@@ -7,6 +7,10 @@ body {
     background-color: #fcfcfc;
 }
 
+* {
+    scroll-behavior: smooth;
+}
+
 /* nav .logo img {
     height: 50px;
     width: 50px;
@@ -370,16 +374,15 @@ nav .contact-btn:hover {
 
 
 /* halama Keempat  */
-.fantek {
+.arya {
     text-align: left;
-    padding: 20px;
-    margin: 170px 0px 100px 0px;
+    padding: 140px 0px 140px 0px;
     display: flex;
     justify-content: center ;
     font-family: 'inter',serif;
 }
 
-.fantek .contak {
+.arya .contak {
     font-size: 22px;
     margin: 100px 100px 0px 0px;
 }
