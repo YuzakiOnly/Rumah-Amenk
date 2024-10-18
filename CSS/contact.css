@@ -268,9 +268,9 @@ section {
 }
 
 .footer-content {
-    h2 {
+    h1 {
         font-weight: bolder;
-    
+        margin-bottom: 20px;
     }
 
 }
@@ -305,13 +305,14 @@ section {
     color: #d6d6d6;
     font-size: 16px;
     line-height: 30px;
-    margin: 20px 0;
+    margin: 20px 0 20px 0px;
 }
 
 .icon-foot a{
     display: inline-block;
     font-size: 22px;
     color: #d6d6d6;
+    margin-top: 20px;
     margin-right: 17px;
     transition: all .40s ease;
 }
