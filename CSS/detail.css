@@ -119,6 +119,8 @@ nav .contact-btn:hover {
     background: #fcfcfc;
     justify-content: center;
     align-content: center;
+    height: 590px;
+    width: 100%;
 }
 .back-button {
     display: flex;
@@ -236,7 +238,7 @@ nav .contact-btn:hover {
     font-size: 28px;
     font-family: 'inter',serif;
     font-weight: bolder;
-    margin-left: 7.6rem;
+    margin-left: 4.6rem;
 }
 
 
@@ -248,13 +250,14 @@ nav .contact-btn:hover {
     background: #FFA800;
     margin-top: 100px;
     padding-bottom: 100px;
+    width: 100%;
 }
 .makanan {
     font-family: 'outfit',serif;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 0px 100px 0px 100px;
+    padding: 0px 40px 0px 40px;
     gap: 10px;
 }
 .menu-makanan {
