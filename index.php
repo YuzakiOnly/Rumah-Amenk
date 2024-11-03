@@ -29,19 +29,19 @@
             <span>Rumah Amenk</span>
         </div>
         <div class="menu">
-            <a class="active"  href="index.html">Home</a>
-            <a href="menu.html">Menu</a>
+            <a class="active"  href="index.php">Home</a>
+            <a href="menu.php">Menu</a>
             <!-- <a href="keranjang.html">Orders</a> -->
-            <a href="#serv">Services</a>
-            <a href="gallery.html">Gallery</a>
+            <a href="index.php#serv">Services</a>
+            <a href="gallery.php">Gallery</a>
         </div>
         <div class="icons">
             <!-- <a href="keranjang.html"><i class="fa-solid fa-cart-shopping"></i></a> -->
             <button class="jamet">
-                <a href="Login.html"><i class="fa-solid fa-user"></i></a>
+                <a href="Login.php"><i class="fa-solid fa-user"></i></a>
             </button>
             <button class="contact-btn">
-                <a href="contact.html"><i class="fa-solid fa-phone"></i></a>Contact
+                <a href="contact.php"><i class="fa-solid fa-phone"></i></a>Contact
             </button>
         </div>
     </nav>
@@ -226,26 +226,26 @@
 
             <div class="footer-content">
                 <h4>Projects</h4>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="index.html#serv">Services</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="menu.php">Menu</a></li>
+                <li><a href="index.php#serv">Services</a></li>
+                <li><a href="gallery.php">Gallery</a></li>
             </div>
 
             <div class="footer-content">
                 <h4>Company</h4>
-                <li><a href="error.html">How to work</a></li>
-                <li><a href="error.html">Capital</a></li>
-                <li><a href="error.html">Security</a></li>
-                <li><a href="error.html">Sellings</a></li>
+                <li><a href="error.php">How to work</a></li>
+                <li><a href="error.php">Capital</a></li>
+                <li><a href="error.php">Security</a></li>
+                <li><a href="error.php">Sellings</a></li>
             </div>
 
             <div class="footer-content">
                 <h4>Help</h4>
-                <li><a href="error.html">Privacy</a></li>
-                <li><a href="error.html">Condition</a></li>
-                <li><a href="error.html">Blog</a></li>
-                <li><a href="error.html">FAQs</a></li>
+                <li><a href="error.php">Privacy</a></li>
+                <li><a href="error.php">Condition</a></li>
+                <li><a href="error.php">Blog</a></li>
+                <li><a href="error.php">FAQs</a></li>
             </div>
 
         </section>

@@ -24,26 +24,23 @@
     <!-- navbar -->
     <nav>
         <div class="logo">
-        <img
-            alt="Logo of Rumah Amenk"
-            src="./Kuning merah berilustrasi ayam geprek logo.jpg"
-        />
-        <span>Rumah Amenk</span>
+            <img alt="Logo of Rumah Amenk" src="./Kuning merah berilustrasi ayam geprek logo.jpg" />
+            <span>Rumah Amenk</span>
         </div>
         <div class="menu">
-        <a href="index.html">Home</a>
-        <a class="active" href="menu.html">Menu</a>
-        <!-- <a href="keranjang.html">Orders</a> -->
-        <a href="index.html#serv">Services</a>
-        <a href="gallery.html">Gallery</a>
+            <a href="index.php">Home</a>
+            <a class="active"  href="menu.php">Menu</a>
+            <!-- <a href="keranjang.html">Orders</a> -->
+            <a href="index.php#serv">Services</a>
+            <a href="gallery.php">Gallery</a>
         </div>
         <div class="icons">
             <!-- <a href="keranjang.html"><i class="fa-solid fa-cart-shopping"></i></a> -->
             <button class="jamet">
-                <a href="Login.html"><i class="fa-solid fa-user"></i></a>
+                <a href="Login.php"><i class="fa-solid fa-user"></i></a>
             </button>
             <button class="contact-btn">
-                <a href="contact.html"><i class="fa-solid fa-phone"></i></a>Contact
+                <a href="contact.php"><i class="fa-solid fa-phone"></i></a>Contact
             </button>
         </div>
     </nav>
@@ -83,7 +80,7 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>15.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
@@ -112,7 +109,7 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>15.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
@@ -141,7 +138,7 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>15.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
@@ -170,7 +167,7 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>15.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
@@ -199,7 +196,7 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>15.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
@@ -228,7 +225,7 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>15.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
@@ -257,7 +254,7 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>15.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
@@ -286,7 +283,7 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>15.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
@@ -315,7 +312,7 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>15.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
@@ -344,11 +341,10 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>15.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
-
         <div class="menu-makanan">
             <img alt="Image of a burger" src="./Asset/Makanan Berat/Ayam Drakor.jpeg"/>
             <div class="alamak">
@@ -373,11 +369,10 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>15.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
-
         <div class="menu-makanan">
             <img alt="Image of a burger" src="./Asset/Makanan Berat/Ayam Drakor.jpeg"/>
             <div class="alamak">
@@ -402,7 +397,7 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>15.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
@@ -439,7 +434,7 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>30.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
@@ -468,11 +463,10 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>30.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
-
         <div class="menu-makanan">
             <img alt="Image of a burger" src="./Asset/Makanan RIngan/Salad L.jpg"/>
             <div class="alamak">
@@ -497,11 +491,10 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>30.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
-
         <div class="menu-makanan">
             <img alt="Image of a burger" src="./Asset/Makanan RIngan/Salad L.jpg"/>
             <div class="alamak">
@@ -526,11 +519,10 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>30.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
-
         <div class="menu-makanan">
             <img alt="Image of a burger" src="./Asset/Makanan RIngan/Salad L.jpg"/>
             <div class="alamak">
@@ -555,11 +547,10 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>30.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
-
         <div class="menu-makanan">
             <img alt="Image of a burger" src="./Asset/Makanan RIngan/Salad L.jpg"/>
             <div class="alamak">
@@ -584,11 +575,10 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>30.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
-
         <div class="menu-makanan">
             <img alt="Image of a burger" src="./Asset/Makanan RIngan/Salad L.jpg"/>
             <div class="alamak">
@@ -613,11 +603,10 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>30.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
-
         <div class="menu-makanan">
             <img alt="Image of a burger" src="./Asset/Makanan RIngan/Salad L.jpg"/>
             <div class="alamak">
@@ -642,10 +631,11 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>30.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
+
     </div>
     <!-- halaman menu cemilan -->
 
@@ -679,7 +669,7 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>12.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
@@ -708,11 +698,10 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>12.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
-
         <div class="menu-makanan">
             <img alt="Image of a burger" src="./Asset/Semua Minuman/Es Teller.jpg"/>
             <div class="alamak">
@@ -737,11 +726,10 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>12.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
-
         <div class="menu-makanan">
             <img alt="Image of a burger" src="./Asset/Semua Minuman/Es Teller.jpg"/>
             <div class="alamak">
@@ -766,11 +754,38 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>12.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
+                <div class="menu-makanan">
+            <img alt="Image of a burger" src="./Asset/Semua Minuman/Es Teller.jpg"/>
+            <div class="alamak">
+                <div class="menu-title">Es Teller</div>
+                <div class="menu-subtitle">Description of the item</div>
+            </div>
 
+            <div class="stars">
+                <i class="fas fa-star">
+                </i>
+                <i class="fas fa-star">
+                </i>
+                <i class="fas fa-star">
+                </i>
+                <i class="fas fa-star">
+                </i>
+                <i class="far fa-star">
+                </i>
+            </div>
+
+            <div class="harga">
+                <div class="rp">
+                    <div class="price"><span>Rp</span>12.000</div>
+                </div>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+        </div>
         <div class="menu-makanan">
             <img alt="Image of a burger" src="./Asset/Semua Minuman/Es Teller.jpg"/>
             <div class="alamak">
@@ -795,11 +810,10 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>12.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
-
         <div class="menu-makanan">
             <img alt="Image of a burger" src="./Asset/Semua Minuman/Es Teller.jpg"/>
             <div class="alamak">
@@ -824,11 +838,10 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>12.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
-
         <div class="menu-makanan">
             <img alt="Image of a burger" src="./Asset/Semua Minuman/Es Teller.jpg"/>
             <div class="alamak">
@@ -853,36 +866,7 @@
                 <div class="rp">
                     <div class="price"><span>Rp</span>12.000</div>
                 </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-            </div>
-        </div>
-
-        <div class="menu-makanan">
-            <img alt="Image of a burger" src="./Asset/Semua Minuman/Es Teller.jpg"/>
-            <div class="alamak">
-                <div class="menu-title">Es Teller</div>
-                <div class="menu-subtitle">Description of the item</div>
-            </div>
-
-            <div class="stars">
-                <i class="fas fa-star">
-                </i>
-                <i class="fas fa-star">
-                </i>
-                <i class="fas fa-star">
-                </i>
-                <i class="fas fa-star">
-                </i>
-                <i class="far fa-star">
-                </i>
-            </div>
-
-            <div class="harga">
-                <div class="rp">
-                    <div class="price"><span>Rp</span>12.000</div>
-                </div>
-                <div class="shop"><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="shop"><a href="detail.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
         </div>
@@ -897,34 +881,34 @@
                 <p>Di mana Setiap Piring Menenun Kisah Penguasaan Kuliner dan Keahlian yang Penuh Semangat.</p>
                 <div class="icon-foot">
                     <a href="#"><i class='bx bxl-facebook-circle'></i></a>
-                    <a href="#"><i class='bx bxl-twitter' ></i></a>
-                    <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
-                    <a href="#"><i class='bx bxl-youtube' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://www.instagram.com/?hl=en"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="https://www.youtube.com/"><i class='bx bxl-youtube'></i></a>
                 </div>
             </div>
 
             <div class="footer-content">
                 <h4>Projects</h4>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="index.html#serv">Services</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="menu.php">Menu</a></li>
+                <li><a href="index.php#serv">Services</a></li>
+                <li><a href="gallery.php">Gallery</a></li>
             </div>
 
             <div class="footer-content">
                 <h4>Company</h4>
-                <li><a href="error.html">How to work</a></li>
-                <li><a href="error.html">Capital</a></li>
-                <li><a href="error.html">Security</a></li>
-                <li><a href="error.html">Sellings</a></li>
+                <li><a href="error.php">How to work</a></li>
+                <li><a href="error.php">Capital</a></li>
+                <li><a href="error.php">Security</a></li>
+                <li><a href="error.php">Sellings</a></li>
             </div>
 
             <div class="footer-content">
                 <h4>Help</h4>
-                <li><a href="error.html">Privacy</a></li>
-                <li><a href="error.html">Condition</a></li>
-                <li><a href="error.html">Blog</a></li>
-                <li><a href="error.html">FAQs</a></li>
+                <li><a href="error.php">Privacy</a></li>
+                <li><a href="error.php">Condition</a></li>
+                <li><a href="error.php">Blog</a></li>
+                <li><a href="error.php">FAQs</a></li>
             </div>
 
         </section>

@@ -14,7 +14,7 @@
         Terima kasih atas pengertian Anda.</p>
         <h6>Tekan Tombol Kembali untuk Ke Halaman Utama</h6>
         <button>
-            <a href="index.html">Kembali</a>
+            <a href="index.php">Kembali</a>
         </button>
     </div>
 
