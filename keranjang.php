@@ -95,7 +95,7 @@
                 <div class="remove">Hapus</div>
             </div>
             <div class="cart-item">
-                <img src="/Asset/Semua Minuman/Es Teller.jpg" alt="Nasi Goreng Ayam"/>
+                <img src="/Asset/Semua Minuman/Es   Teller.jpg" alt="Nasi Goreng Ayam"/>
                 <div class="details">
                     <h4>Nasi Goreng Ayam</h4>
                     <p>Nasi Goreng Ayam Akan Rumah Amnek Penuh Dengan Cita Rasa Mulai Dari Ayam yang Dibuturi Penuh Ke Dalam Nasi Goreng !!</p>

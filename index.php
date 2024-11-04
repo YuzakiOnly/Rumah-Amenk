@@ -36,7 +36,7 @@
             <a href="gallery.php">Gallery</a>
         </div>
         <div class="icons">
-            <!-- <a href="keranjang.html"><i class="fa-solid fa-cart-shopping"></i></a> -->
+            <!-- <a href="keranjang.html"><i class="fa-solid fa-cart-shopping"></i></a> --> 
             <button class="jamet">
                 <a href="Login.php"><i class="fa-solid fa-user"></i></a>
             </button>
