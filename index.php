@@ -59,7 +59,7 @@
                 Di mana Setiap Piring Menenun Kisah Penguasaan Kuliner dan Keahlian yang Penuh Semangat Di mana Setiap
                 Piring Menenun Kisah Penguasaan Kuliner dan Keahlian yang Penuh Semangat
             </p>
-            <a href="menu.html"><button class="btn">MENU KAMI</button></a>
+            <a href="menu.php"><button class="btn">MENU KAMI</button></a>
         </div>
         <div class="image">
             <img alt="A delicious plate of food from Rumah Amenk"

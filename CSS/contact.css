@@ -162,7 +162,7 @@ nav .contact-btn:hover {
 }
 
 .left{
-	background: url("/Asset/pemandangannya-cantik-5-restoran-di-bali-ini-berlokasi-di-tepi-tebing-2.png") no-repeat;
+	background: url("/Asset/nasi-goreng-indonesian-fried-rice-sugar-spice-more-6486e9184d498a53171a2c62.jpeg") no-repeat;
 	background-size: cover;
 	height: 100%;
 }
@@ -172,13 +172,14 @@ nav .contact-btn:hover {
     width: 60%;
 }
 
-h2{
+.contact-box h2{
 	position: relative;
+    margin-left: 20px;
 	padding: 0 0 10px;
 	margin-bottom: 10px;
 }
 
-h2:after{
+.contact-box h2:after{
 	content: '';
     position: absolute;
     left: 50%;
@@ -261,6 +262,10 @@ section {
     left: 0;
     right: 0;
     bottom: 0;
+
+    h2 {
+        margin-bottom: 20px;
+    }
 }
 
 .footer-content{

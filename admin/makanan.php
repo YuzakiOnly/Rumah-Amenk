@@ -8,34 +8,55 @@
 </head>
 <body>
 
-    <form action="hasilmakanan.php" enctype="multipart/form-data" method="post">
+    <form action="inputmakanan.php" enctype="multipart/form-data" method="post">
     <h1>Form Makanan Rumah Amenk</h1>
         <label for="nama_produk">Nama Produk:</label>
-        <input type="text" id="nama_produk" name="nama_produk" required>
+        <input type="text" id="nama_produk" name="nama_produk" placeholder="Isi Nama Makanan" required>
 
         <label for="kategori">Kategori Makanan:</label>
-        <select id="kategori" name="kategori" required>
+        <select id="kategori" name="kategori" required >
+            <option value="pilihan">Pilih Makanan</option>
             <option value="makanan_berat">Makanan Berat</option>
             <option value="makanan_ringan">Makanan Ringan</option>
             <option value="minuman">Minuman</option>
         </select>
 
         <label for="harga">Harga:</label>
-        <input type="number" id="harga" name="harga" required>
+        <input type="number" id="harga" name="harga" placeholder="Isi Harga Makanan" required>
 
         <label for="stok">Stok:</label>
-        <input type="number" id="stok" name="stok" required>
+        <input type="number" id="stok" name="stok" placeholder="Isi Stok Makanan" required>
 
         <label for="deskripsi">Deskripsi:</label>
-        <textarea id="deskripsi" name="deskripsi" required></textarea>
+        <textarea id="deskripsi" name="deskripsi" placeholder="Isi Deskripsi" required></textarea>
 
-        <label for="gambar">Upload Gambar:</label>
-        <input type="file" id="gambar" name="gambar" accept="image/*" required onchange="previewImage(event)">
-        <img id="preview">
+        <label for="gambar">Gambar Produk</label>
+                <input type="file" id="gambar" name="gambar" accept="image/*">
+                <p style="font-size: 0.9em; color: #666;">Format yang diperbolehkan: JPG, JPEG, PNG, GIF. Maksimal 5MB.</p>
 
-        <input type="submit" value="Sumbit">
+        <input type="submit" value="Sumbit" name="kirim">
     </form>
 
+    <script>
+        document.getElementById('gambar').onchange = function(e) {
+            const preview = document.querySelector('.preview-image');
+            if (preview) {
+                preview.remove();
+            }
+    
+            const file = this.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const img = document.createElement('img');
+                    img.src = e.target.result;
+                    img.className = 'preview-image';
+                    document.querySelector('.form-group:last-of-type').appendChild(img);
+                }
+                reader.readAsDataURL(file);
+            }
+        };
+    </script>
 
 </body>
 </html>

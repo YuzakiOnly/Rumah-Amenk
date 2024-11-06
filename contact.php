@@ -50,11 +50,13 @@
 			<div class="left"></div>
 			<div class="right">
 				<h2>Contact Us</h2>
-				<input type="text" class="field" placeholder="Your Name">
-				<input type="text" class="field" placeholder="Your Email">
-				<input type="text" class="field" placeholder="Phone">
+                <form action="">
+                <input type="text" class="field" placeholder="Your Name">
+				<input type="email" class="field" placeholder="Your Email">
+				<input type="number" class="field" placeholder="Phone">
 				<textarea placeholder="Message" class="field"></textarea>
 				<button class="btn">Send</button>
+                </form>
 			</div>
 		</div>
 	</div>
