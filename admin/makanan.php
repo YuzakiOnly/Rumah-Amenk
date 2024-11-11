@@ -11,7 +11,7 @@
     <form action="inputmakanan.php" enctype="multipart/form-data" method="post">
     <h1>Form Makanan Rumah Amenk</h1>
         <label for="nama_produk">Nama Produk:</label>
-        <input type="text" id="nama_produk" name="nama_produk" placeholder="Isi Nama Makanan" required>
+        <input type="text" id="nama_produk" name="nama_produk" placeholder="Isi Nama Product" required>
 
         <label for="kategori">Kategori Makanan:</label>
         <select id="kategori" name="kategori" required >

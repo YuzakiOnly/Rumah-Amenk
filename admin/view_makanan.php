@@ -70,7 +70,7 @@
                                 <td class="fw-bold"><?=$data['name']?></td>
                                 <td><span class="badge bg-info"><?=$data['category_id']?></span></td>
                                 <td><?=$data['price']?></td>
-                                <td><?=$data['stok']?></td>
+                                <td><span class="badge bg-success stock-badge"><?=$data['stok']?></span></td>
                                 <td><?=$data['description']?></td>
                                 <td><?=$data['image']?></td>
                                 <td>Edit</td>
