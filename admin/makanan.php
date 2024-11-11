@@ -15,10 +15,10 @@
 
         <label for="kategori">Kategori Makanan:</label>
         <select id="kategori" name="kategori" required >
-            <option value="pilihan">Pilih Makanan</option>
-            <option value="makanan_berat">Makanan Berat</option>
-            <option value="makanan_ringan">Makanan Ringan</option>
-            <option value="minuman">Minuman</option>
+            <option value="0">Pilih Makanan</option>
+            <option value="1">Makanan Berat</option>
+            <option value="2">Makanan Ringan</option>
+            <option value="3">Minuman</option>
         </select>
 
         <label for="harga">Harga:</label>
@@ -37,7 +37,7 @@
         <input type="submit" value="Sumbit" name="kirim">
     </form>
 
-    <script>
+    <!-- <script>
         document.getElementById('gambar').onchange = function(e) {
             const preview = document.querySelector('.preview-image');
             if (preview) {
@@ -56,7 +56,7 @@
                 reader.readAsDataURL(file);
             }
         };
-    </script>
+    </script> -->
 
 </body>
 </html>

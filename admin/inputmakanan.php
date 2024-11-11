@@ -1,5 +1,5 @@
 <?php
-    // require_once "./config/config.php";
+    require_once "../config/config.php";
 
     if (isset($_POST['kirim'])) {
         // Mengambil data dari form
@@ -8,6 +8,7 @@
         $harga = ($_POST['harga']);
         $stok = ($_POST['stok']);
         $deskripsi = ($_POST['deskripsi']);
+        $gambar = basename($_FILES['gambar']['name']);
 
         // Menampilkan hasil
         echo "<div class='result'>";
@@ -25,17 +26,28 @@
             'kategori' => $kategori,
             'harga' => $harga,
             'stok' => $stok,
-            'deskripsi' => $deskripsi
+            'deskripsi' => $deskripsi,
+            'gambar'=> $gambar
         ];
         
         $validasi = validasiData($data);
-        if ($validasi == 0){
-            echo "data siap di input";
+        if($validasi == 0 ){
+            // echo "data sudah lengkap siap di inputkan";
+            $result = inputmakanan($data, $koneksi);
+            $folderTujuan = $rootDir."upload";
+            if($result) 
+            { 
+                $upload = tambahGambar($folderTujuan, $_FILES['gambar']);
+                if($upload) 
+                    header("location:inputmakanan.php?status=1");
+                else 
+                header("location:inputmakanan.php?status=1&errno=2");
+            }
+            else header("location:inputmakanan.php?errno=1");
         }
-        else{
+        else {
             echo "data $validasi kurang";
         }
     }
-
 
     ?>
