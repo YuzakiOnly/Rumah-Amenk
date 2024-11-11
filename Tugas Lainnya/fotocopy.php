@@ -58,9 +58,14 @@
         }
 
         if ($statusLangganan == "langganan") {
-            echo "<h3 class='text-center mt-4'>Kamu <span class='font-weight-bold'>berlangganan</span> Kamu dapat harga 1 lembar Rp.75</h3>";
+            echo "<h3 class='text-center mt-4'>Kamu <span class='font-weight-bold'>berlangganan</span> Kamu dapat harga 1 lembar Rp.". number_format(75, 0, ',', '.') ."</h3>";
         } else {
-            echo "<h3 class='text-center mt-4'>Kamu <span class='font-weight-bold'>tidak berlangganan</span> Kamu hanya dapat harga 1 lembar Rp.85 </h3>";
+            // Menampilkan harga per lembar berdasarkan jumlah lembar
+            if ($jumlahLembar < 100) {
+                echo "<h3 class='text-center mt-4'>Kamu <span class='font-weight-bold'>tidak berlangganan</span> Kamu dapat harga 1 lembar Rp." . number_format(100, 0, ',', '.') . "</br>(Dibawah 100 Lembar)</h3>";
+            } else {
+                echo "<h3 class='text-center mt-4'>Kamu <span class='font-weight-bold'>tidak berlangganan</span> Kamu dapat harga 1 lembar Rp." . number_format(85, 0, ',', '.') . "</br>(Diatas 100 Lembar)</h3>";
+            }
         }
 
         $total = hitungTotalHarga($statusLangganan, $jumlahLembar);
