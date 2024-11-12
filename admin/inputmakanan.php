@@ -11,15 +11,15 @@
         $gambar = basename($_FILES['gambar']['name']);
 
         // Menampilkan hasil
-        echo "<div class='result'>";
-        echo "<h2>Hasil Produk:</h2>";
-        echo "<p><strong>Nama Produk:</strong> $nama_produk</p>";
-        echo "<p><strong>Kategori:</strong> $kategori</p>";
-        echo "<p><strong>Harga:</strong> Rp.
-        $harga</p>";
-        echo "<p><strong>Stok:</strong> $stok</p>";
-        echo "<p><strong>Deskripsi:</strong> $deskripsi</p>";
-        echo "</div>";
+        // echo "<div class='result'>";
+        // echo "<h2>Hasil Produk:</h2>";
+        // echo "<p><strong>Nama Produk:</strong> $nama_produk</p>";
+        // echo "<p><strong>Kategori:</strong> $kategori</p>";
+        // echo "<p><strong>Harga:</strong> Rp.
+        // $harga</p>";
+        // echo "<p><strong>Stok:</strong> $stok</p>";
+        // echo "<p><strong>Deskripsi:</strong> $deskripsi</p>";
+        // echo "</div>";
 
         $data = [
             'nama_produk' => $nama_produk,
@@ -39,11 +39,11 @@
             { 
                 $upload = tambahGambar($folderTujuan, $_FILES['gambar']);
                 if($upload) 
-                    header("location:inputmakanan.php?status=1");
+                    header("location:makanan.php?status=1");
                 else 
-                header("location:inputmakanan.php?status=1&errno=2");
+                header("location:makanan.php?status=1&errno=2");
             }
-            else header("location:inputmakanan.php?errno=1");
+            else header("location:makanan.php?errno=1");
         }
         else {
             echo "data $validasi kurang";

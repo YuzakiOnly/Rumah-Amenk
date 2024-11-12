@@ -1,3 +1,7 @@
+<?php
+    require "../config/config.php"
+?>
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -12,13 +16,22 @@
     <h1>Form Makanan Rumah Amenk</h1>
         <label for="nama_produk">Nama Produk:</label>
         <input type="text" id="nama_produk" name="nama_produk" placeholder="Isi Nama Product" required>
-
+        
         <label for="kategori">Kategori Makanan:</label>
-        <select id="kategori" name="kategori" required >
-            <option value="0">Pilih Makanan</option>
-            <option value="1">Makanan Berat</option>
-            <option value="2">Makanan Ringan</option>
-            <option value="3">Minuman</option>
+        <select  id="0" name="kategori" required>
+            <option selected value="0">Pilih Makanan</option>
+            <?php 
+                $kategori = viewkategori($koneksi);
+
+                if($kategori != false){
+                    foreach($kategori as $reck) {
+                ?>
+                <option value="<?= $reck['id'] ?>"><?= $reck['name'] ?></option>
+
+                <?php  
+                        }
+                    } 
+                ?>
         </select>
 
         <label for="harga">Harga:</label>
