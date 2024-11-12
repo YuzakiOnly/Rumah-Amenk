@@ -25,7 +25,7 @@
     }
 
     .animate-fade {
-        animation: fade 20s infinite;
+        animation: fade 12s infinite;
     }
 
     .bg-image1 {
@@ -229,9 +229,9 @@
                 <div>
                     <h4 class="text-xl font-bold mb-4">Jam Operasional</h4>
                     <div class="space-y-2 text-gray-300">
-                        <p>Senin - Kamis: 07:00 - 15:00</p>
-                        <p>Jumat: 07:00 - 11:30</p>
-                        <p>Sabtu - Minggu: Tutup</p>
+                        <i data-feather="clock" class="w-4 h-4 mr-1"></i>Senin - Kamis: 07:00 - 15:00
+                        <i data-feather="clock" class="w-4 h-4 mr-1"></i>Jumat: 07:00 - 11:30
+                        <i data-feather="clock" class="w-4 h-4 mr-1"></i>Sabtu - Minggu: Tutup
                     </div>
                 </div>
             </div>
