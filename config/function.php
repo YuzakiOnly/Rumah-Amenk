@@ -35,7 +35,7 @@
 
     function viewMakanan($koneksi){
         $sql = "SELECT product.id,product.name,product.description,product.price,product.stok,product.category_id,product.image
-        FROM `product` WHERE 1";
+        FROM `product` where 1";
         $stmt = mysqli_query($koneksi, $sql);
         if(mysqli_num_rows($stmt) > 0) return mysqli_fetch_all($stmt, MYSQLI_ASSOC);
         else return false;
