@@ -1,7 +1,3 @@
-<?php
-require "../config/config.php";
-?>
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -12,26 +8,17 @@ require "../config/config.php";
 </head>
 <body class="bg-gray-100 flex items-center justify-center min-h-screen">
 
-    <form action="" enctype="multipart/form-data" method="post" class="bg-white p-6 rounded-lg shadow-md w-full max-w-md">
-        <h1 class="text-2xl font-bold mb-6 text-center">Form Makanan Rumah Amenk</h1>
-        
-        <label for="nama_produk" class="block text-sm font-medium text-gray-700">Nama Produk:</label>
-        <input type="text" id="nama_produk" name="nama_produk" placeholder="Isi Nama Produk" required class="mt-1 block w-full border border-gray-300 rounded-md px-4 py-2">
+    <form action="inputmakanan.php" enctype="multipart/form-data" method="post">
+    <h1>Form Makanan Rumah Amenk</h1>
+        <label for="nama_produk">Nama Produk:</label>
+        <input type="text" id="nama_produk" name="nama_produk" placeholder="Isi Nama Product" required>
 
-        <label for="kategori" class="block text-sm font-medium text-gray-700 mt-4">Kategori Makanan:</label>
-        <select id="kategori" name="kategori" required class="mt-1 block w-full border border-gray-300 rounded-md px-4 py-2">
-            <option selected value="0">Pilih Makanan</option>
-            <?php 
-                $kategori = viewkategori($koneksi);
-
-                if($kategori != false){
-                    foreach($kategori as $reck) {
-                ?>
-                <option value="<?= $reck['id'] ?>"><?= $reck['name'] ?></option>
-                <?php  
-                    }
-                } 
-                ?>
+        <label for="kategori">Kategori Makanan:</label>
+        <select id="kategori" name="kategori" required >
+            <option value="0">Pilih Makanan</option>
+            <option value="1">Makanan Berat</option>
+            <option value="2">Makanan Ringan</option>
+            <option value="3">Minuman</option>
         </select>
 
         <label for="harga" class="block text-sm font-medium text-gray-700 mt-4">Harga:</label>
