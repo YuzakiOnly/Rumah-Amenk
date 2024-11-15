@@ -40,14 +40,4 @@
         if(mysqli_num_rows($stmt) > 0) return mysqli_fetch_all($stmt, MYSQLI_ASSOC);
         else return false;
     }
-
-    function viewkategori($koneksi){
-        $sql = "SELECT * FROM category";
-        $stmt = mysqli_query($koneksi, $sql); 
-    
-        if(mysqli_num_rows($stmt) > 0 ) return mysqli_fetch_all($stmt, MYSQLI_ASSOC);
-        else return false;
-    }
-
-    
 ?>
