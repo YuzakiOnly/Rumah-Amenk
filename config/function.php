@@ -3,7 +3,7 @@
         foreach($data as $product => $value) {
             $value = trim($value);
             if($value === '' || $value === 0 || $value === null || $value === false){
-                return $index;
+                return $product;
             }
         }
         return 0;
@@ -43,7 +43,7 @@
 
     function viewkategori($koneksi){
         $sql = "SELECT * FROM category";
-        $stmt = mysqli_query($koneksi, $sql);
+        $stmt = mysqli_query($koneksi, $sql); 
     
         if(mysqli_num_rows($stmt) > 0 ) return mysqli_fetch_all($stmt, MYSQLI_ASSOC);
         else return false;

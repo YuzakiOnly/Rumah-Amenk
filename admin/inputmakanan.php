@@ -1,4 +1,6 @@
 <?php
+// echo $rootDir;
+
     require_once "../config/config.php";
 
     if (isset($_POST['kirim'])) {
@@ -34,7 +36,7 @@
         if($validasi == 0 ){
             // echo "data sudah lengkap siap di inputkan";
             $result = inputmakanan($data, $koneksi);
-            $folderTujuan = $rootDir."upload";
+            $folderTujuan = $rootDir."/upload";
             if($result) 
             { 
                 $upload = tambahGambar($folderTujuan, $_FILES['gambar']);

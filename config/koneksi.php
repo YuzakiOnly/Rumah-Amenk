@@ -1,5 +1,5 @@
 <?php
-    $rootDir = $_SERVER['DOCUMENT_ROOT'].'/Katalog_Makanan_RumahAmenk/';
+    $rootDir = $_SERVER['DOCUMENT_ROOT'];
     $server = "localhost"; 
     $user = "root";
     $pass = '';
