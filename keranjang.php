@@ -47,7 +47,7 @@
                 <a href="Login.php"><i class="fa-solid fa-user"></i></a>
             </button>
             <button class="contact-btn">
-                <a href="contact.html"><i class="fa-solid fa-phone"></i></a>Contact
+                <a href="contact.php"><i class="fa-solid fa-phone"></i></a>Contact
             </button>
         </div>
     </nav>

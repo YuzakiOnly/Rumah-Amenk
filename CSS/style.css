@@ -548,28 +548,6 @@ section {
     transform: translateY(-5px);
 }
 
-/* @media (max max-width:1690){
-    section {
-        padding: 50px 5% 50px;
-    }
-}
-
-@media (max max-width:1120px){
-    .footer {
-        display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(300px, auto));
-        gap: 2 rem;
-    }
-}
-
-@media (max max-width:700px){
-    .footer {
-        display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(150px, auto));
-        gap: 2.5rem;
-    }
-} */
-
 /* footer */
 
 

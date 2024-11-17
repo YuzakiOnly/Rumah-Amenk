@@ -243,7 +243,10 @@ textarea{
 
 /* footer */    
 
+
 footer {
+
+    width: 100%;
     background: #31515C;
     text-decoration: none;
     list-style: none;
@@ -262,10 +265,6 @@ section {
     left: 0;
     right: 0;
     bottom: 0;
-
-    h2 {
-        margin-bottom: 20px;
-    }
 }
 
 .footer-content{
@@ -273,12 +272,9 @@ section {
     color: #fff;
 }
 
-.footer-content {
-    h1 {
-        font-weight: bolder;
-        margin-bottom: 20px;
-    }
-
+.footer-content h2 {
+    font-weight: bolder;
+    margin-bottom: 20px;
 }
 
 .footer-content h4{
@@ -311,14 +307,13 @@ section {
     color: #d6d6d6;
     font-size: 16px;
     line-height: 30px;
-    margin: 20px 0 20px 0px;
+    margin: 20px 0;
 }
 
 .icon-foot a{
     display: inline-block;
     font-size: 22px;
     color: #d6d6d6;
-    margin-top: 20px;
     margin-right: 17px;
     transition: all .40s ease;
 }
@@ -327,3 +322,5 @@ section {
     color: #fff;
     transform: translateY(-5px);
 }
+
+/* footer */

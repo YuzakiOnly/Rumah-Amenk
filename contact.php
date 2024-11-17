@@ -11,7 +11,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
         <!-- Link Google Font -->
-        
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.3/dist/tailwind.min.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
         <!-- Boxicons Link -->
         <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
@@ -20,7 +22,7 @@
         <!-- Boxicons Link -->
         <link href="./fontawesome-free-6.6.0-web/css/all.min.css " rel="stylesheet"/>
 </head>
-<body>
+<body class="bg-gray-50">
         <!-- navbar -->
         <nav>
             <div class="logo">
@@ -45,24 +47,55 @@
             </div>
         </nav>
         <!-- navbar -->
-    <div class="container">
-		<div class="contact-box">
-			<div class="left"></div>
-			<div class="right">
-				<h2>Contact Us</h2>
-                <form action="">
-                <input type="text" class="field" placeholder="Your Name">
-				<input type="email" class="field" placeholder="Your Email">
-				<input type="number" class="field" placeholder="Phone">
-				<textarea placeholder="Message" class="field"></textarea>
-				<button class="btn">Send</button>
-                </form>
-			</div>
-		</div>
-	</div>
+        <div class="container mx-auto py-12">
+        <div class="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden">
+            <!-- Gambar di Samping Kiri -->
+            <div class="w-full md:w-1/2">
+                <img src="../Asset/pemandangannya-cantik-5-restoran-di-bali-ini-berlokasi-di-tepi-tebing-2.png" alt="Contact Us"
+                    class="h-full w-full object-cover">
+            </div>
+            <!-- Form di Samping Kanan -->
+            <div class="w-full md:w-1/2 p-6 md:p-12">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Contact Us</h2>
+                <p class="text-gray-600 mb-6">
+                    We'd love to hear from you! Please fill out the form below and we'll get in touch as soon as possible.
+                </p>
+                <form action="#" method="POST" class="space-y-4" id="contactForm">
+                <!-- Nama -->
+                <div>
+                    <input type="text" name="name" placeholder="Your Name" required
+                        class="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[#ffa800] focus:border-transparent">
+                </div>
+                <!-- Email -->
+                <div>
+                    <input type="email" name="email" placeholder="Your Email" required
+                        class="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[#ffa800] focus:border-transparent">
+                </div>
+                <!-- Nomor Telepon -->
+                <div>
+                    <input type="tel" name="phone" placeholder="Phone" pattern="[0-9]*" required
+                        class="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[#ffa800] focus:border-transparent">
+                </div>
+                <!-- Pesan -->
+                <div>
+                    <textarea name="message" placeholder="Message" rows="4" required
+                        class="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[#ffa800]
+                        focus:border-transparent">
+                    </textarea>
+                </div>
+                <!-- Tombol Kirim -->
+                <button type="submit"
+                    class="w-full bg-[#ffa800] text-white py-2 px-4 rounded-md hover:bg-[#ffa800] focus:outline-none focus:ring-2 focus:ring-[#ffa800] focus:ring-offset-2">
+                    Send
+                </button>
+            </form>
+            </div>
+        </div>
+    </div>
 
-        <!-- footer -->
-        <footer>
+
+    <!-- footer -->
+    <footer>
         <section class="footer">
             <div class="footer-content">
                 <h2>AMENK SALAD</h2>
@@ -98,8 +131,17 @@
                 <li><a href="error.php">Blog</a></li>
                 <li><a href="error.php">FAQs</a></li>
             </div>
+
         </section>
     </footer>
-        <!-- footer -->      
+    <!-- footer -->  
 </body>
+    <script>
+        // Reset form setelah submit
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault(); // Mencegah reload halaman
+            alert('Your message has been sent!');
+            this.reset(); // Mereset form
+        });
+    </script>
 </html>
