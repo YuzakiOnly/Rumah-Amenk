@@ -52,4 +52,20 @@
         }
     }
 
+    else if(isset($_GET['del'])){
+        $id = $_GET['del'] ?? null;
+    
+        if($id === null || !ctype_digit($id)){
+            header("location:view_makanan.php?errno=3");
+        }
+        else {
+            // function delete
+            $result = delProduct($koneksi, $id);
+            if($result) 
+                header("location:view_makanan.php?success=1");
+            else 
+                header("location:view_makanan.php?errno=5");
+        }
+    }
+
     ?>

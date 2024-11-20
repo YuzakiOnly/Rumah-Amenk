@@ -33,6 +33,17 @@
     return true;  
     }
 
+    function delProduct($koneksi, $id){
+        $sql = "DELETE FROM product WHERE id = ?";
+        $stmt = mysqli_prepare($koneksi, $sql);
+    
+        mysqli_stmt_bind_param($stmt, "i", $id);
+        $result = mysqli_stmt_execute($stmt);
+    
+        if($result) return true;
+        else return false; 
+    }
+
     function viewMakanan($koneksi){
         $sql = "SELECT product.id,product.name,product.description,product.price,product.stok,product.category_id,product.image
         FROM `product` where 1";
