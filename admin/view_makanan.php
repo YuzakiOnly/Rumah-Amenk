@@ -77,7 +77,8 @@
                                 <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Kategori</th>
                                 <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Harga</th>
                                 <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Stok</th>
-                                <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Aksi</th>
+                                <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Gambar</th>
+                                <th class="px-16 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Aksi</th>
                             </tr>
                         </thead>
                         <tbody class="bg-white divide-y divide-gray-200">
@@ -95,10 +96,11 @@
                                 <td class="px-4 py-2 whitespace-nowrap">
                                     <span class="px-2 py-1 text-sm text-green-600 bg-green-100 rounded-full"><?=$data['stok']?></span>
                                 </td>
+                                <td class="px-4 py-2 text-sm text-gray-500"> <img src="../upload/<?= $data['image']?>" class="w-20"/></td>
                                 <td class="px-4 py-2 whitespace-nowrap flex space-x-2">
                                     <button class="bg-yellow-500 hover:bg-yellow-600 text-white px-3 py-1 rounded text-sm" 
                                             onclick="window.location.href='edit.php?id=<?= $data['id'] ?>'">
-                                        Edit
+                                        <a href="">Edit</a>
                                     </button>
                                     <button class="bg-red-500 hover:bg-red-600 text-white px-3 py-1 rounded text-sm" 
                                             onclick="return confirm('Apakah anda yakin ingin menghapus data ini?') ? window.location.href='?del=<?= $data['id'] ?>' : false">

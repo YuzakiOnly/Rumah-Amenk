@@ -1,3 +1,6 @@
+<?php
+    require "../config/config.php"
+?>
 <!DOCTYPE html>
 <html lang="id">
 
@@ -27,12 +30,21 @@
                 <label for="kategori" class="block text-sm font-medium text-gray-700 mb-1">Kategori Makanan:</label>
                 <select id="kategori"
                     name="kategori"
-                    required
                     class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
-                    <option value="0">Pilih Makanan</option>
-                    <option value="1">Makanan Berat</option>
-                    <option value="2">Makanan Ringan</option>
-                    <option value="3">Minuman</option>
+                    <option selected value="0" >--Pilih Kategori--</option>
+                                <?php 
+                                    $kategori = viewKategori($koneksi);
+
+                                    if($kategori != false) {
+                                        foreach($kategori as $recA) {
+                                ?>
+
+                    <option value="<?= $recA['id'] ?>"><?= $recA['nama'] ?></option>
+
+                                <?php 
+                                        }
+                                    } 
+                                ?>
                 </select>
             </div>
 

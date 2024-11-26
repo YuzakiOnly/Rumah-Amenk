@@ -17,7 +17,7 @@
         $deskripsi = $data['deskripsi'];
         $gambar = $data['gambar'];
 
-        $sql = "INSERT INTO product (name,category_id,price,stok,description,image) VALUES (?,?,?,?,?,?)";
+        $sql = "INSERT INTO product (name,category_id,price,stok,description,image) VALUES  (?,?,?,?,?,?)";
         $stmt = mysqli_prepare($koneksi, $sql);
         if($stmt === false) 
         {
@@ -33,6 +33,16 @@
     return true;  
     }
 
+    // function viewProduct($koneksi){
+    //     $sql = "SELECT product.id, product.name, product.description, product.price, product.stok, product.image FROM `product`
+    //                         LEFT JOIN kategori ON product.category_id";
+    
+    //     $stmt = mysqli_query($koneksi, $sql);
+    
+    //     if(mysqli_num_rows($stmt) > 0) return mysqli_fetch_all($stmt, MYSQLI_ASSOC);
+    //     else return false; 
+    // }
+
     function delProduct($koneksi, $id){
         $sql = "DELETE FROM product WHERE id = ?";
         $stmt = mysqli_prepare($koneksi, $sql);
@@ -44,11 +54,23 @@
         else return false; 
     }
 
+
+
+
     function viewMakanan($koneksi){
         $sql = "SELECT product.id,product.name,product.description,product.price,product.stok,product.category_id,product.image
-        FROM `product` where 1";
+        FROM `product`";
         $stmt = mysqli_query($koneksi, $sql);
         if(mysqli_num_rows($stmt) > 0) return mysqli_fetch_all($stmt, MYSQLI_ASSOC);
+        else return false;
+    }
+
+    function viewKategori($koneksi)
+    {
+        $sql = "SELECT * FROM category";
+        $stmt = mysqli_query($koneksi, $sql);
+    
+        if (mysqli_num_rows($stmt) > 0) return mysqli_fetch_all($stmt, MYSQLI_ASSOC);
         else return false;
     }
 ?>
